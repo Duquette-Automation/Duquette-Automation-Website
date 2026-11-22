@@ -1,0 +1,135 @@
+{
+  "lang": "fr",
+  "locale": "fr_CA",
+  "dossier": "",
+  "autre": {"code": "en", "dossier": "en/", "libelle": "English", "court": "EN"},
+  "meta": {
+    "titre": "Duquette Automation — Automatisations sur mesure pour PME",
+    "description": "Des automatisations sur mesure pour les petites et moyennes entreprises : vos tâches répétitives deviennent un bouton dans une application Windows à votre nom. Nord du Nouveau-Brunswick et Québec."
+  },
+  "nav": [
+    {"id": "services", "libelle": "Services"},
+    {"id": "realisations", "libelle": "Réalisations"},
+    {"id": "demarche", "libelle": "Démarche"},
+    {"id": "a-propos", "libelle": "À propos"},
+    {"id": "contact", "libelle": "Contact"}
+  ],
+  "lien_evitement": "Aller au contenu",
+  "menu": "Menu",
+  "hero": {
+    "titre": ["Faites ce que vous aimez.", "On automatise le reste."],
+    "texte": "Duquette Automation conçoit des automatisations sur mesure pour les petites et moyennes entreprises. Les tâches répétitives que votre équipe fait à la main deviennent un bouton dans une application Windows à votre nom.",
+    "bouton": "Discutons de votre projet",
+    "secondaire": "Voir des réalisations",
+    "region": "Basé dans le nord du Nouveau-Brunswick. Clients au Nouveau-Brunswick, au Québec et ailleurs, à distance."
+  },
+  "apercu": {
+    "legende": "L’application livrée à la Librairie Matulu. Données d’exemple.",
+    "slogan_client": "Vous êtes libraire par passion. On s’occupe du reste."
+  },
+  "services": {
+    "titre": "Des outils construits pour votre façon de travailler",
+    "items": [
+      {
+        "titre": "Automatiser une tâche répétitive",
+        "texte": "Rapprochements, commandes, rapports, classement de fichiers : un script lit les exports de vos logiciels (CSV, Excel, PDF, courriels, Word) et produit un résultat clair dans Excel, qui commence par ce qu’il faut faire."
+      },
+      {
+        "titre": "Faire travailler vos logiciels ensemble",
+        "texte": "Les automatisations s’appuient sur les outils que vous utilisez déjà, comme votre logiciel de gestion ou DaVinci Resolve. Quand rien n’existe pour votre besoin, l’outil est créé de zéro."
+      },
+      {
+        "titre": "Une application à votre image",
+        "texte": "Votre équipe n’installe rien de technique. Une application Windows à votre logo et à vos couleurs trouve les bons fichiers, lance l’automatisation et ouvre le résultat. En cas de problème, le message dit quoi faire, en mots simples."
+      }
+    ],
+    "prix": {
+      "montant": "À partir de 400 $",
+      "texte": "pour une automatisation simple. Le prix est fixé avec vous avant le début du travail, selon le nombre de tâches et de logiciels touchés."
+    }
+  },
+  "realisations": {
+    "titre": "Réalisations",
+    "intro": "Deux entreprises, deux métiers. Elles font ce qu’elles aiment ; leur application s’occupe du reste.",
+    "libelles": {"besoin": "Le besoin", "solution": "Ce qui a été construit", "resultat": "Le résultat"},
+    "cas": [
+      {
+        "id": "matulu",
+        "slogan": ["Vous êtes libraire par passion.", "On s’occupe du reste."],
+        "client": "Librairie Matulu",
+        "secteur": "Librairie indépendante",
+        "besoin": "Chaque jour, l’équipe croisait à la main les commandes des clients, les réceptions de livres et l’inventaire du logiciel Vilivre. Les promotions des distributeurs arrivaient en plus par courriel, en PDF et en Word, chacune dans son format.",
+        "outils": [
+          {"nom": "Répartir une réception", "texte": "repère les livres placés en tablette alors qu’un client les attend, et indique à quelle commande va chaque livre reçu."},
+          {"nom": "Vérifier les commandes clients", "texte": "chaque matin, la liste des livres à retirer des tablettes, des exemplaires manquants et des commandes prêtes à partir."},
+          {"nom": "Promotions → livres à commander", "texte": "lit les offres de quatre distributeurs, les compare à l’inventaire et propose les livres à commander, par priorité."}
+        ],
+        "resultat": "Les rapports de Vilivre deviennent des fichiers Excel qui commencent par les actions à faire. L’application tient aussi le compte du temps économisé et des erreurs repérées."
+      },
+      {
+        "id": "dakshan",
+        "slogan": ["Vous êtes l’expert en création vidéo.", "On s’occupe du reste."],
+        "client": "Dakshan Visuals",
+        "secteur": "Production et montage vidéo",
+        "besoin": "Chaque lot de tournage reçu d’une agence, soit des dizaines de clips pour neuf vidéos, demandait des heures de préparation avant même le montage : décompresser, classer, séparer les plans, monter les timelines, puis corriger les sous-titres et exporter chaque vidéo.",
+        "outils": [
+          {"nom": "Préparer un lot", "texte": "du fichier zip reçu au projet DaVinci Resolve prêt à monter : dossiers créés, plans A et B séparés par détection de la voix, silences coupés."},
+          {"nom": "Corriger les sous-titres", "texte": "compare les sous-titres générés au script et à un glossaire des noms et des mots régionaux, puis place un marqueur sur chaque passage douteux."},
+          {"nom": "Exporter les vidéos", "texte": "retrouve chaque vidéo sur la timeline montée et l’exporte selon la convention de nom du client, sans jamais écraser une version."}
+        ],
+        "resultat": "Le monteur ouvre une timeline déjà préparée et ne revoit que les sous-titres signalés. Tout fonctionne sur le poste de montage : aucun abonnement, aucune vidéo envoyée ailleurs."
+      }
+    ]
+  },
+  "demarche": {
+    "titre": "Comment ça se passe",
+    "etapes": [
+      {"titre": "Un premier appel", "texte": "Vous décrivez la tâche qui vous prend du temps : ce que vous faites, à quelle fréquence, et ce qui arrive quand une erreur s’y glisse."},
+      {"titre": "L’analyse de vos vrais fichiers", "texte": "Le travail part de vos exports réels. Les règles cachées, comme les exceptions ou les colonnes trompeuses, sont relevées et validées avec vous avant d’écrire le code."},
+      {"titre": "Une automatisation vérifiée", "texte": "Les résultats sont contre-vérifiés à la main sur vos fichiers. Chaque règle appliquée est visible dans le résultat, pour que vous puissiez lui faire confiance ou la contester."},
+      {"titre": "La livraison", "texte": "Vous recevez l’application à votre nom, prête à installer sur vos postes, avec les coordonnées d’assistance affichées à l’intérieur."}
+    ]
+  },
+  "apropos": {
+    "titre": "Derrière Duquette Automation",
+    "paragraphes": [
+      "Je m’appelle Thomas Duquette. Je suis doctorant en génie, spécialisé en robotique. Mes recherches portent sur la planification des mouvements de robots et sur la vérification de leur sécurité : démontrer qu’une trajectoire respecte ses limites, plutôt que de le supposer.",
+      "J’applique la même exigence à vos automatisations. Une règle qui n’a pas été vérifiée sur vos données ne se rend pas dans votre application."
+    ],
+    "signature": "Thomas Duquette, fondateur"
+  },
+  "temoignages": {
+    "titre": "Ce qu’en disent les clients",
+    "items": []
+  },
+  "contact": {
+    "titre": "Parlons de votre projet",
+    "texte": "Décrivez en quelques lignes la tâche que vous aimeriez ne plus faire à la main. Je vous réponds personnellement.",
+    "par_courriel": "Par courriel",
+    "bouton_courriel": "Écrire un courriel",
+    "sujet": "Projet d’automatisation",
+    "rendez_vous": "Réserver un appel",
+    "rendez_vous_texte": "Choisissez un moment pour un premier appel de 30 minutes.",
+    "formulaire": {
+      "titre": "Ou remplissez ce formulaire",
+      "nom": "Votre nom",
+      "entreprise": "Entreprise",
+      "courriel": "Courriel",
+      "message": "Quelle tâche aimeriez-vous automatiser ?",
+      "facultatif": "facultatif",
+      "envoyer": "Envoyer le message",
+      "envoi": "Envoi…",
+      "succes": "Message envoyé. Vous recevrez une réponse par courriel.",
+      "erreur": "Le message n’a pas pu partir. Écrivez directement à"
+    }
+  },
+  "pied": {
+    "slogan": "Faites ce que vous aimez. On automatise le reste.",
+    "droits": "Tous droits réservés."
+  },
+  "page_404": {
+    "titre": "Page introuvable",
+    "texte": "Cette adresse ne mène à aucune page du site.",
+    "lien": "Retour à l’accueil"
+  }
+}
