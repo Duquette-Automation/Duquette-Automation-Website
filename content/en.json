@@ -63,7 +63,7 @@
       },
       {
         "titre": "An app with your brand on it",
-        "texte": "Your team installs nothing technical. A Windows app with your logo and colours finds the right files, runs the automation and opens the result. When something goes wrong, the message says what to do, in plain words, and our team can step in if needed."
+        "texte": "Your team installs nothing technical. A Windows app with your logo and colours finds the right files, runs the automation and opens the result. When something goes wrong, the message says what to do, in plain words, and we can step in if needed."
       }
     ],
     "prix": {
@@ -121,7 +121,7 @@
           },
           {
             "nom": "Fix subtitles",
-            "texte": "compares the subtitles the app generates automatically with subtitles produced by a local AI on the editor’s computer, for greater reliability."
+            "texte": "compares the subtitles generated automatically by the editing software with subtitles produced by a local AI on the editor’s computer, for greater reliability."
           },
           {
             "nom": "Export the videos",
@@ -141,7 +141,7 @@
       },
       {
         "titre": "A look at your real files",
-        "texte": "The work starts from your needs. Your workflows are documented and our approach is confirmed with you before any code is written."
+        "texte": "The work starts from your needs. Your workflows are documented, and we confirm with you what will be built before any code is written."
       },
       {
         "titre": "A verified automation",
@@ -156,7 +156,7 @@
   "apropos": {
     "titre": "Behind Duquette Automation",
     "paragraphes": [
-      "I’m Thomas Duquette, a PhD candidate in engineering specializing in robotics. My research is on planning robot motion and verifying its safety. I’ve built many tools for myself and my colleagues, and I now put that experience to work for you."
+      "I’m a PhD candidate in engineering specializing in robotics. My research is on planning robot motion and verifying its safety. I’ve built many tools for myself and my colleagues, and I now put that experience to work for you."
     ],
     "signature": "Thomas Duquette, founder"
   },
