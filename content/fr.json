@@ -63,7 +63,7 @@
       },
       {
         "titre": "Une application à votre image",
-        "texte": "Votre équipe n’installe rien de technique. Une application Windows à votre logo et à vos couleurs trouve les bons fichiers, lance l’automatisation et ouvre le résultat. En cas de problème, le message dit quoi faire, en mots simples, et notre équipe peut intervenir au besoin."
+        "texte": "Votre équipe n’installe rien de technique. Une application Windows à votre logo et à vos couleurs trouve les bons fichiers, lance l’automatisation et ouvre le résultat. En cas de problème, le message dit quoi faire, en mots simples, et on peut intervenir au besoin."
       }
     ],
     "prix": {
@@ -96,7 +96,7 @@
           },
           {
             "nom": "Vérifier les commandes clients",
-            "texte": "chaque matin, la génération de la liste des livres à retirer des tablettes, des exemplaires manquants et des commandes prêtes à partir."
+            "texte": "chaque matin, génère la liste des livres à retirer des tablettes, des exemplaires manquants et des commandes prêtes à partir."
           },
           {
             "nom": "Promotions → livres à commander",
@@ -121,7 +121,7 @@
           },
           {
             "nom": "Corriger les sous-titres",
-            "texte": "compare les sous-titres générés automatiquement par l’application à des sous-titres générés par une IA locale sur l’ordinateur du monteur pour une fiabilité accrue."
+            "texte": "compare les sous-titres générés automatiquement par le logiciel de montage à des sous-titres générés par une IA locale sur l’ordinateur du monteur pour une fiabilité accrue."
           },
           {
             "nom": "Exporter les vidéos",
@@ -141,7 +141,7 @@
       },
       {
         "titre": "L’analyse de vos vrais fichiers",
-        "texte": "Le travail part de vos besoins. Vos méthodes de travail sont relevées et nos intentions validées avec vous avant d’écrire le code."
+        "texte": "Le travail part de vos besoins. Vos méthodes de travail sont relevées, et on valide avec vous ce qui sera fait avant d’écrire le code."
       },
       {
         "titre": "Une automatisation vérifiée",
@@ -156,7 +156,7 @@
   "apropos": {
     "titre": "Derrière Duquette Automation",
     "paragraphes": [
-      "Je m’appelle Thomas Duquette. Je suis doctorant en génie, spécialisé en robotique. Mes recherches portent sur la planification des mouvements de robots et sur la vérification de leur sécurité. J’ai créé de nombreux outils pour moi-même et mes collègues, et je mets maintenant mon expérience à votre service."
+      "Je suis doctorant en génie, spécialisé en robotique. Mes recherches portent sur la planification des mouvements de robots et sur la vérification de leur sécurité. J’ai créé de nombreux outils pour moi-même et mes collègues, et je mets maintenant mon expérience à votre service."
     ],
     "signature": "Thomas Duquette, fondateur"
   },
