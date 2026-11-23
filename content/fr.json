@@ -2,22 +2,45 @@
   "lang": "fr",
   "locale": "fr_CA",
   "dossier": "",
-  "autre": {"code": "en", "dossier": "en/", "libelle": "English", "court": "EN"},
+  "autre": {
+    "code": "en",
+    "dossier": "en/",
+    "libelle": "English",
+    "court": "EN"
+  },
   "meta": {
     "titre": "Duquette Automation — Automatisations sur mesure pour PME",
     "description": "Des automatisations sur mesure pour les petites et moyennes entreprises : vos tâches répétitives deviennent un bouton dans une application Windows à votre nom. Nord du Nouveau-Brunswick et Québec."
   },
   "nav": [
-    {"id": "services", "libelle": "Services"},
-    {"id": "realisations", "libelle": "Réalisations"},
-    {"id": "demarche", "libelle": "Démarche"},
-    {"id": "a-propos", "libelle": "À propos"},
-    {"id": "contact", "libelle": "Contact"}
+    {
+      "id": "services",
+      "libelle": "Services"
+    },
+    {
+      "id": "realisations",
+      "libelle": "Réalisations"
+    },
+    {
+      "id": "demarche",
+      "libelle": "Démarche"
+    },
+    {
+      "id": "a-propos",
+      "libelle": "À propos"
+    },
+    {
+      "id": "contact",
+      "libelle": "Contact"
+    }
   ],
   "lien_evitement": "Aller au contenu",
   "menu": "Menu",
   "hero": {
-    "titre": ["Faites ce que vous aimez.", "On automatise le reste."],
+    "titre": [
+      "Faites ce que vous aimez.",
+      "On automatise le reste."
+    ],
     "texte": "Duquette Automation conçoit des automatisations sur mesure pour les petites et moyennes entreprises. Les tâches répétitives que votre équipe fait à la main deviennent un bouton dans une application Windows à votre nom.",
     "bouton": "Discutons de votre projet",
     "secondaire": "Voir des réalisations",
@@ -32,69 +55,108 @@
     "items": [
       {
         "titre": "Automatiser une tâche répétitive",
-        "texte": "Rapprochements, commandes, rapports, classement de fichiers : un script lit les exports de vos logiciels (CSV, Excel, PDF, courriels, Word) et produit un résultat clair dans Excel, qui commence par ce qu’il faut faire."
+        "texte": "Commandes, rapports, classement de fichiers : des scripts faits sur mesure lisent et manipulent vos données pour produire un résultat clair et exploitable."
       },
       {
         "titre": "Faire travailler vos logiciels ensemble",
-        "texte": "Les automatisations s’appuient sur les outils que vous utilisez déjà, comme votre logiciel de gestion ou DaVinci Resolve. Quand rien n’existe pour votre besoin, l’outil est créé de zéro."
+        "texte": "Les automatisations s’appuient sur les outils que vous utilisez déjà. Quand rien n’existe pour votre besoin, l’outil est créé de zéro."
       },
       {
         "titre": "Une application à votre image",
-        "texte": "Votre équipe n’installe rien de technique. Une application Windows à votre logo et à vos couleurs trouve les bons fichiers, lance l’automatisation et ouvre le résultat. En cas de problème, le message dit quoi faire, en mots simples."
+        "texte": "Votre équipe n’installe rien de technique. Une application Windows à votre logo et à vos couleurs trouve les bons fichiers, lance l’automatisation et ouvre le résultat. En cas de problème, le message dit quoi faire, en mots simples, et notre équipe peut intervenir au besoin."
       }
     ],
     "prix": {
       "montant": "À partir de 400 $",
-      "texte": "pour une automatisation simple. Le prix est fixé avec vous avant le début du travail, selon le nombre de tâches et de logiciels touchés."
+      "texte": "pour un script simple. Le prix est fixé avec vous avant le début du travail, selon le nombre de tâches et de logiciels touchés."
     }
   },
   "realisations": {
     "titre": "Réalisations",
-    "intro": "Deux entreprises, deux métiers. Elles font ce qu’elles aiment ; leur application s’occupe du reste.",
-    "libelles": {"besoin": "Le besoin", "solution": "Ce qui a été construit", "resultat": "Le résultat"},
+    "intro": "Deux chefs d’entreprise, deux métiers. Ils font ce qu’ils aiment ; leur application s’occupe du reste.",
+    "libelles": {
+      "besoin": "Le besoin",
+      "solution": "Ce qui a été construit",
+      "resultat": "Le résultat"
+    },
     "cas": [
       {
         "id": "matulu",
-        "slogan": ["Vous êtes libraire par passion.", "On s’occupe du reste."],
+        "slogan": [
+          "Vous êtes libraire par passion.",
+          "On s’occupe du reste."
+        ],
         "client": "Librairie Matulu",
         "secteur": "Librairie indépendante",
-        "besoin": "Chaque jour, l’équipe croisait à la main les commandes des clients, les réceptions de livres et l’inventaire du logiciel Vilivre. Les promotions des distributeurs arrivaient en plus par courriel, en PDF et en Word, chacune dans son format.",
+        "besoin": "Chaque jour, l’équipe révisait à la main les commandes des clients, les réceptions de livres et l’inventaire. Les promotions des distributeurs arrivaient par courriel, en PDF et en Word, chacune dans son format.",
         "outils": [
-          {"nom": "Répartir une réception", "texte": "repère les livres placés en tablette alors qu’un client les attend, et indique à quelle commande va chaque livre reçu."},
-          {"nom": "Vérifier les commandes clients", "texte": "chaque matin, la liste des livres à retirer des tablettes, des exemplaires manquants et des commandes prêtes à partir."},
-          {"nom": "Promotions → livres à commander", "texte": "lit les offres de quatre distributeurs, les compare à l’inventaire et propose les livres à commander, par priorité."}
+          {
+            "nom": "Répartir une réception",
+            "texte": "repère les livres qu’un client attend, et indique à quelle commande chaque livre appartient."
+          },
+          {
+            "nom": "Vérifier les commandes clients",
+            "texte": "chaque matin, la génération de la liste des livres à retirer des tablettes, des exemplaires manquants et des commandes prêtes à partir."
+          },
+          {
+            "nom": "Promotions → livres à commander",
+            "texte": "lit les offres de quatre distributeurs, les compare à l’inventaire et propose les livres à commander, par priorité."
+          }
         ],
-        "resultat": "Les rapports de Vilivre deviennent des fichiers Excel qui commencent par les actions à faire. L’application tient aussi le compte du temps économisé et des erreurs repérées."
+        "resultat": "Les rapports deviennent des fichiers Excel qui commencent par les actions à prendre. En plus de faire gagner du temps, l’application réduit les erreurs. Le libraire peut prendre le temps de partager sa passion des livres avec les membres de sa communauté."
       },
       {
         "id": "dakshan",
-        "slogan": ["Vous êtes l’expert en création vidéo.", "On s’occupe du reste."],
+        "slogan": [
+          "Vous êtes l’expert en création vidéo.",
+          "On s’occupe du reste."
+        ],
         "client": "Dakshan Visuals",
         "secteur": "Production et montage vidéo",
-        "besoin": "Chaque lot de tournage reçu d’une agence, soit des dizaines de clips pour neuf vidéos, demandait des heures de préparation avant même le montage : décompresser, classer, séparer les plans, monter les timelines, puis corriger les sous-titres et exporter chaque vidéo.",
+        "besoin": "Chaque lot de tournage reçu d’une agence, soit plusieurs dizaines de clips, demandait des heures de préparation avant même le montage : décompresser, classer, séparer les plans, monter les timelines, puis corriger les sous-titres et exporter chaque vidéo.",
         "outils": [
-          {"nom": "Préparer un lot", "texte": "du fichier zip reçu au projet DaVinci Resolve prêt à monter : dossiers créés, plans A et B séparés par détection de la voix, silences coupés."},
-          {"nom": "Corriger les sous-titres", "texte": "compare les sous-titres générés au script et à un glossaire des noms et des mots régionaux, puis place un marqueur sur chaque passage douteux."},
-          {"nom": "Exporter les vidéos", "texte": "retrouve chaque vidéo sur la timeline montée et l’exporte selon la convention de nom du client, sans jamais écraser une version."}
+          {
+            "nom": "Préparer un lot",
+            "texte": "du fichier zip reçu au projet prêt à monter, avec les dossiers créés, les plans A et B séparés par détection de la voix et les silences coupés."
+          },
+          {
+            "nom": "Corriger les sous-titres",
+            "texte": "compare les sous-titres générés automatiquement par l’application à des sous-titres générés par une IA locale sur l’ordinateur du monteur pour une fiabilité accrue."
+          },
+          {
+            "nom": "Exporter les vidéos",
+            "texte": "retrouve chaque vidéo sur la timeline montée et l’exporte selon la convention de nom du client."
+          }
         ],
-        "resultat": "Le monteur ouvre une timeline déjà préparée et ne revoit que les sous-titres signalés. Tout fonctionne sur le poste de montage : aucun abonnement, aucune vidéo envoyée ailleurs."
+        "resultat": "Le monteur ouvre une timeline déjà préparée et peut laisser aller sa créativité pour en offrir plus à ses clients."
       }
     ]
   },
   "demarche": {
     "titre": "Comment ça se passe",
     "etapes": [
-      {"titre": "Un premier appel", "texte": "Vous décrivez la tâche qui vous prend du temps : ce que vous faites, à quelle fréquence, et ce qui arrive quand une erreur s’y glisse."},
-      {"titre": "L’analyse de vos vrais fichiers", "texte": "Le travail part de vos exports réels. Les règles cachées, comme les exceptions ou les colonnes trompeuses, sont relevées et validées avec vous avant d’écrire le code."},
-      {"titre": "Une automatisation vérifiée", "texte": "Les résultats sont contre-vérifiés à la main sur vos fichiers. Chaque règle appliquée est visible dans le résultat, pour que vous puissiez lui faire confiance ou la contester."},
-      {"titre": "La livraison", "texte": "Vous recevez l’application à votre nom, prête à installer sur vos postes, avec les coordonnées d’assistance affichées à l’intérieur."}
+      {
+        "titre": "Une première rencontre",
+        "texte": "Vous décrivez la tâche qui vous prend du temps : ce que vous faites, à quelle fréquence, et ce qui arrive quand une erreur s’y glisse. Une visite peut être arrangée pour offrir un regard externe."
+      },
+      {
+        "titre": "L’analyse de vos vrais fichiers",
+        "texte": "Le travail part de vos besoins. Vos méthodes de travail sont relevées et nos intentions validées avec vous avant d’écrire le code."
+      },
+      {
+        "titre": "Une automatisation vérifiée",
+        "texte": "Les résultats sont contre-vérifiés à la main sur vos fichiers. Chaque règle appliquée est visible dans le résultat, pour que vous puissiez lui faire confiance ou la contester."
+      },
+      {
+        "titre": "La livraison",
+        "texte": "Vous recevez l’application à votre nom, prête à installer sur vos postes, avec les coordonnées d’assistance affichées à l’intérieur."
+      }
     ]
   },
   "apropos": {
     "titre": "Derrière Duquette Automation",
     "paragraphes": [
-      "Je m’appelle Thomas Duquette. Je suis doctorant en génie, spécialisé en robotique. Mes recherches portent sur la planification des mouvements de robots et sur la vérification de leur sécurité : démontrer qu’une trajectoire respecte ses limites, plutôt que de le supposer.",
-      "J’applique la même exigence à vos automatisations. Une règle qui n’a pas été vérifiée sur vos données ne se rend pas dans votre application."
+      "Je m’appelle Thomas Duquette. Je suis doctorant en génie, spécialisé en robotique. Mes recherches portent sur la planification des mouvements de robots et sur la vérification de leur sécurité. J’ai créé de nombreux outils pour moi-même et mes collègues, et je mets maintenant mon expérience à votre service."
     ],
     "signature": "Thomas Duquette, fondateur"
   },

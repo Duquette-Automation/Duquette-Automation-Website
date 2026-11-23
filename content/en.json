@@ -2,22 +2,45 @@
   "lang": "en",
   "locale": "en_CA",
   "dossier": "en/",
-  "autre": {"code": "fr", "dossier": "", "libelle": "Français", "court": "FR"},
+  "autre": {
+    "code": "fr",
+    "dossier": "",
+    "libelle": "Français",
+    "court": "FR"
+  },
   "meta": {
     "titre": "Duquette Automation — Custom automation for small businesses",
     "description": "Custom automation for small and medium businesses: the repetitive tasks your team does by hand become one button in a Windows app with your name on it. Northern New Brunswick and Quebec."
   },
   "nav": [
-    {"id": "services", "libelle": "Services"},
-    {"id": "realisations", "libelle": "Work"},
-    {"id": "demarche", "libelle": "Process"},
-    {"id": "a-propos", "libelle": "About"},
-    {"id": "contact", "libelle": "Contact"}
+    {
+      "id": "services",
+      "libelle": "Services"
+    },
+    {
+      "id": "realisations",
+      "libelle": "Work"
+    },
+    {
+      "id": "demarche",
+      "libelle": "Process"
+    },
+    {
+      "id": "a-propos",
+      "libelle": "About"
+    },
+    {
+      "id": "contact",
+      "libelle": "Contact"
+    }
   ],
   "lien_evitement": "Skip to content",
   "menu": "Menu",
   "hero": {
-    "titre": ["Do what you love.", "We automate the rest."],
+    "titre": [
+      "Do what you love.",
+      "We automate the rest."
+    ],
     "texte": "Duquette Automation builds custom automation for small and medium businesses. The repetitive tasks your team does by hand become one button in a Windows app with your name on it.",
     "bouton": "Let’s talk about your project",
     "secondaire": "See client work",
@@ -32,69 +55,108 @@
     "items": [
       {
         "titre": "Automate a repetitive task",
-        "texte": "Reconciliations, orders, reports, filing: a script reads the exports from your software (CSV, Excel, PDF, emails, Word) and produces a clear Excel result that starts with what needs doing."
+        "texte": "Orders, reports, file sorting: custom-built scripts read and process your data to produce a clear, usable result."
       },
       {
         "titre": "Make your software work together",
-        "texte": "Automations build on the tools you already use, such as your management software or DaVinci Resolve. When nothing exists for your need, the tool is built from scratch."
+        "texte": "Automations build on the tools you already use. When nothing exists for your need, the tool is built from scratch."
       },
       {
         "titre": "An app with your brand on it",
-        "texte": "Your team installs nothing technical. A Windows app with your logo and colours finds the right files, runs the automation and opens the result. When something goes wrong, the message says what to do, in plain words."
+        "texte": "Your team installs nothing technical. A Windows app with your logo and colours finds the right files, runs the automation and opens the result. When something goes wrong, the message says what to do, in plain words, and our team can step in if needed."
       }
     ],
     "prix": {
       "montant": "From $400",
-      "texte": "for a simple automation. The price is agreed with you before work begins, based on how many tasks and programs are involved."
+      "texte": "for a simple script. The price is agreed with you before work begins, based on how many tasks and programs are involved."
     }
   },
   "realisations": {
     "titre": "Client work",
-    "intro": "Two businesses, two trades. They do what they love; their app handles the rest.",
-    "libelles": {"besoin": "The need", "solution": "What was built", "resultat": "The result"},
+    "intro": "Two business owners, two trades. They do what they love; their app handles the rest.",
+    "libelles": {
+      "besoin": "The need",
+      "solution": "What was built",
+      "resultat": "The result"
+    },
     "cas": [
       {
         "id": "matulu",
-        "slogan": ["You run a bookshop because you love books.", "We handle the rest."],
+        "slogan": [
+          "You run a bookshop because you love books.",
+          "We handle the rest."
+        ],
         "client": "Librairie Matulu",
         "secteur": "Independent bookshop",
-        "besoin": "Every day, staff cross-checked customer orders, book deliveries and the inventory in their Vilivre software by hand. Distributor promotions arrived on top of that by email, PDF and Word, each in its own format.",
+        "besoin": "Every day, staff reviewed customer orders, book deliveries and inventory by hand. Distributor promotions arrived by email, PDF and Word, each in its own format.",
         "outils": [
-          {"nom": "Sort a delivery", "texte": "finds books shelved for sale while a customer is waiting for them, and shows which order each received book belongs to."},
-          {"nom": "Check customer orders", "texte": "every morning, the books to pull from the shelves, missing copies and orders ready to go."},
-          {"nom": "Promotions to purchase list", "texte": "reads offers from four distributors, compares them with inventory and suggests what to order, by priority."}
+          {
+            "nom": "Sort a delivery",
+            "texte": "finds the books a customer is waiting for, and shows which order each book belongs to."
+          },
+          {
+            "nom": "Check customer orders",
+            "texte": "every morning, generates the list of books to pull from the shelves, missing copies and orders ready to go."
+          },
+          {
+            "nom": "Promotions to purchase list",
+            "texte": "reads offers from four distributors, compares them with inventory and suggests what to order, by priority."
+          }
         ],
-        "resultat": "Vilivre’s reports become Excel files that open with the actions to take. The app also keeps count of the time saved and the errors it has caught."
+        "resultat": "Reports become Excel files that open with the actions to take. Besides saving time, the app reduces errors. The bookseller can take the time to share a love of books with the community."
       },
       {
         "id": "dakshan",
-        "slogan": ["You’re the video expert.", "We handle the rest."],
+        "slogan": [
+          "You’re the video expert.",
+          "We handle the rest."
+        ],
         "client": "Dakshan Visuals",
         "secteur": "Video production and editing",
-        "besoin": "Every batch of footage from an agency, dozens of clips for nine videos, took hours of preparation before editing could even start: unzipping, filing, separating shots, building timelines, then fixing subtitles and exporting each video.",
+        "besoin": "Every batch of footage from an agency, several dozen clips, took hours of preparation before editing could even start: unzipping, filing, separating shots, building timelines, then fixing subtitles and exporting each video.",
         "outils": [
-          {"nom": "Prepare a batch", "texte": "from the received zip file to a DaVinci Resolve project ready to edit: folders created, A and B shots separated by speech detection, silences trimmed."},
-          {"nom": "Fix subtitles", "texte": "compares generated subtitles with the script and a glossary of names and regional words, then places a marker on every doubtful passage."},
-          {"nom": "Export the videos", "texte": "finds each video on the edited timeline and exports it under the client’s naming convention, never overwriting a version."}
+          {
+            "nom": "Prepare a batch",
+            "texte": "from the received zip file to a project ready to edit, with folders created, A and B shots separated by speech detection and silences trimmed."
+          },
+          {
+            "nom": "Fix subtitles",
+            "texte": "compares the subtitles the app generates automatically with subtitles produced by a local AI on the editor’s computer, for greater reliability."
+          },
+          {
+            "nom": "Export the videos",
+            "texte": "finds each video on the edited timeline and exports it under the client’s naming convention."
+          }
         ],
-        "resultat": "The editor opens a timeline that is already prepared and only reviews the flagged subtitles. Everything runs on the editing workstation: no subscription, no footage sent anywhere."
+        "resultat": "The editor opens a timeline that is already prepared and can let their creativity run free to offer clients more."
       }
     ]
   },
   "demarche": {
     "titre": "How it works",
     "etapes": [
-      {"titre": "A first call", "texte": "You describe the task that eats your time: what you do, how often, and what happens when a mistake slips in."},
-      {"titre": "A look at your real files", "texte": "The work starts from your actual exports. Hidden rules, like exceptions or misleading columns, are identified and confirmed with you before any code is written."},
-      {"titre": "A verified automation", "texte": "Results are cross-checked by hand against your files. Every rule applied is visible in the output, so you can trust it or challenge it."},
-      {"titre": "Delivery", "texte": "You receive the app under your name, ready to install on your computers, with support contact details shown inside."}
+      {
+        "titre": "A first meeting",
+        "texte": "You describe the task that eats your time: what you do, how often, and what happens when a mistake slips in. A visit can be arranged for an outside perspective."
+      },
+      {
+        "titre": "A look at your real files",
+        "texte": "The work starts from your needs. Your workflows are documented and our approach is confirmed with you before any code is written."
+      },
+      {
+        "titre": "A verified automation",
+        "texte": "Results are cross-checked by hand against your files. Every rule applied is visible in the output, so you can trust it or challenge it."
+      },
+      {
+        "titre": "Delivery",
+        "texte": "You receive the app under your name, ready to install on your computers, with support contact details shown inside."
+      }
     ]
   },
   "apropos": {
     "titre": "Behind Duquette Automation",
     "paragraphes": [
-      "I’m Thomas Duquette, a PhD candidate in engineering specializing in robotics. My research is on planning robot motion and verifying its safety: proving that a trajectory stays within its limits, rather than assuming it does.",
-      "I hold your automations to the same standard. A rule that hasn’t been checked against your data doesn’t make it into your app."
+      "I’m Thomas Duquette, a PhD candidate in engineering specializing in robotics. My research is on planning robot motion and verifying its safety. I’ve built many tools for myself and my colleagues, and I now put that experience to work for you."
     ],
     "signature": "Thomas Duquette, founder"
   },
